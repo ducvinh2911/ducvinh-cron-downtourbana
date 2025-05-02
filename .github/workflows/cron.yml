@@ -2,7 +2,7 @@ name: Call postFET/dowfileTourBana
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Chạy mỗi 2 phút (theo UTC)
+    - cron: '*/1 * * * *'  # Chạy mỗi 2 phút (theo UTC)
   workflow_dispatch:         # Cho phép chạy tay
 
 jobs:
