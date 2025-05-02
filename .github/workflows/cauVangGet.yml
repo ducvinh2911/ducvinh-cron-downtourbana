@@ -2,7 +2,7 @@ name: Call postFET/dowfileTourBanaCauvang
 
 on:
   schedule:
-    - cron: '*/50 * * * *'  # Chạy mỗi 2 phút (theo UTC)
+    - cron: '*/2 * * * *'  # Chạy mỗi 2 phút (theo UTC)
   workflow_dispatch:         # Cho phép chạy tay
 
 jobs:
